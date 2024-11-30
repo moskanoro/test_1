@@ -13,7 +13,7 @@ export const mockCities: City[] = [
       {
         id: 'cih-bank-1',
         name: 'CIH Bank',
-        address: '123 Main Street, Sekhirat',
+        address: 'Rue Hassan 2, Sekhirat',
         crowdDensity: 65,
         city: 'Sekhirat',
         coordinates: {
