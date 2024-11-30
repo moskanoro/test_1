@@ -50,11 +50,10 @@ export function CrowdDensityIndicator({
         </div>
         <span className="text-sm text-muted-foreground">{density}%</span>
       </div>
-      <Progress
-        value={density}
-        className="h-3"
-        indicatorClassName={cn(getColorClass(density), "transition-all")}
-      />
+       <Progress
+          value={density}
+          className={cn(getColorClass(density), "h-3", "transition-all")}
+       />
       {showRecommendation && (
         <p className="text-sm text-muted-foreground mt-2">
           {statusInfo.recommendation}
